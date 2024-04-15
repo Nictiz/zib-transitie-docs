@@ -8,6 +8,7 @@ on:
       - main
     paths:
       # Only run on changes to docs
+      - ".github/workflows/publish-docs.yml"
       - "docs/**"
       - "mkdocs.yml"
       - "requirements.txt"
