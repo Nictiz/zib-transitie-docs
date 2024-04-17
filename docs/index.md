@@ -21,7 +21,7 @@ informatiestandaarden.
     Normatieve regels die dienen te worden gehanteerd bij de ontwikkeling van zibs en hun toepassing in
     informatiestandaarden, systemen en processen.
 
-    [:octicons-arrow-right-24: Lees meer](https://richtlijnen.zib-transitie.nl/)
+    [:octicons-arrow-right-24: Lees meer](https://richtlijnen.zibtransitie.nl/)
 
 -   :material-puzzle-star:{ .lg .middle } &nbsp; **Handreikingen**
 
