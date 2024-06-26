@@ -59,4 +59,14 @@ Over digitale informatievoorziening in de zorg is veel kennis beschikbaar. Als k
 
     [:octicons-arrow-right-24: Lees meer](https://zibs.nl/){: target="_blank" }
 
+-   :material-api:{ .lg .middle } &nbsp; **API-strategie**
+
+    ---
+
+    Goede API's realiseren interoperabiliteit en zijn daarmee van strategisch belang voor het
+    gezondheidsinformatiestelsel. Daarom heeft [Nictiz](./nictiz.md), in samenspraak met het ministerie van VWS en
+    stakeholders, een API-strategie voor de zorg ontwikkeld.
+
+    [:octicons-arrow-right-24: Lees meer](https://developer.zorgapis.nl/){: target="_blank" }
+
 </div>
