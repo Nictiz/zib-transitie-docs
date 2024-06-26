@@ -61,6 +61,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://www.zibtransitie.nl/blog/2024/05/03/terugblik-werksessie-zib-transitie-16-april-2024/</loc>
+         <lastmod>2024-06-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://www.zibtransitie.nl/blog/2024/03/27/terugblik-werksessie-zib-transitie-19-maart-2024/</loc>
          <lastmod>2024-06-26</lastmod>
          <changefreq>daily</changefreq>
@@ -107,6 +112,11 @@
     </url>
     <url>
          <loc>https://www.zibtransitie.nl/blog/category/algemeen/</loc>
+         <lastmod>2024-06-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.zibtransitie.nl/blog/page/2/</loc>
          <lastmod>2024-06-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
