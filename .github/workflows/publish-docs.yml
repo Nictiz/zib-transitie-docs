@@ -23,6 +23,10 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        # Fetch all history for all tags and branches
+        # mkdocs-git-revision-date-localized-plugin needs access to the last commit that touched a specific file
+        with:
+          fetch-depth: 0
 
       - name: Configure Git credentials
         run: |
@@ -35,10 +39,10 @@ jobs:
           python-version: 3.x
           cache: 'pip'
           cache-dependency-path: 'requirements.txt'
-      
+
       - name: Create cache id
         run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV
-        
+
       - name: Cache dependencies
         uses: actions/cache@v4
         with:
@@ -51,6 +55,6 @@ jobs:
         run: |
           python3 -m pip install --upgrade pip
           python3 -m pip install -r ./requirements.txt
-      
+
       - name: Deploy to GitHub Pages
         run: mkdocs gh-deploy --force
