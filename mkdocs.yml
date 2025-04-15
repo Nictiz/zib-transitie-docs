@@ -74,7 +74,7 @@ extra:
       documentatie te verbeteren.
   analytics:
     provider: google
-    property: G-Q5LWKZTYLC
+    property: !ENV GOOGLE_ANALYTICS_KEY
     feedback:
       title: Was deze pagina nuttig?
       ratings:
